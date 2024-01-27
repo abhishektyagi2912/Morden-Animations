@@ -1,5 +1,5 @@
 Shery.mouseFollower();
-// Shery.makeMagnet(".magnet");
+Shery.makeMagnet(".magnet");
 gsap.registerPlugin();
 
 import { preloadImages } from './utils.js';

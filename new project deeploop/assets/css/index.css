@@ -470,13 +470,7 @@ canvas {
     background: transparent;
 }
 
-#clientsAndRelations{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(5, 5, 5);
-}
-
-#client{
+#client {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -484,14 +478,14 @@ canvas {
     margin-left: 2vw;
 }
 
-#client h1{
+#client h1 {
     color: white;
     font-size: 4em;
     font-weight: 600;
     text-align: start;
 }
 
-#client p{
+#client p {
     color: white;
     font-size: 1.5em;
     font-weight: 300;
@@ -499,16 +493,129 @@ canvas {
     font-style: bold;
 }
 
-#tredings{
+#tredings {
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-left: 2vw;
 }
 
-#tredings h1{
+#tredings h1 {
     color: white;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 600;
     text-align: start;
+}
+
+#salient-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 0 12vw;
+    background-color: rgb(5, 5, 5);
+}
+
+#salient-header {
+    margin-top: 10vh;
+    background-color: rgb(5, 5, 5);
+}
+
+#salient-feature p {
+    color: white;
+    font-weight: 600;
+    text-align: start;
+}
+
+#salient-feature h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: start;
+}
+
+#salient-grid {
+    margin-top: 4vh;
+    align-items: start;
+
+}
+
+#salient-section {
+    align-items: start;
+    margin-top: 5vh;
+    flex-wrap: wrap;
+}
+
+#sec-1 {
+    display: flex;
+    flex: 0 0 calc(50% - 50px);
+    align-items: start;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+#sec-2 {
+    display: flex;
+    flex: 0 0 calc(50% - 50px);
+    align-items: start;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+#sec-3 {
+    display: flex;
+    flex: 0 0 calc(50% - 50px);
+    align-items: start;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.dsn-icons {
+    width: 20px;
+    height: 2px;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+.service_title {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: start;
+    margin-bottom: 2vh;
+}
+
+.salient-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.service-item {
+    flex: 0 0 calc(50% - 30px);
+    align-items: start;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    box-sizing: border-box;
+}
+
+.service_description h4 {
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: start;
+    margin-bottom: 4vh;
+}
+
+.service_description p {
+    color: white;
+    font-weight: 100;
+    text-align: start;
+    margin-bottom: 1vh;
 }
