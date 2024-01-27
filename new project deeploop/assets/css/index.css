@@ -619,3 +619,89 @@ canvas {
     text-align: start;
     margin-bottom: 1vh;
 }
+
+/* #footer {
+    position: relative;
+    height: 30vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 0 12vw;
+    background: rgb(5, 5, 5);
+    z-index: 1;
+}
+
+#footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footer-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    align-items: center;
+    margin-top: 9vh;
+    flex-wrap: wrap;
+}
+
+#footer-heading h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 600;
+    text-align:start;
+    margin-bottom: 2vh;
+}
+
+#footer span {
+    color: white;
+    font-weight: 100;
+    text-align: start;
+    font-style: italic;
+} */
+
+.footer {
+    padding: 0 12vw;
+    margin-bottom: 2vh;
+}
+
+.title-btn {
+    color: white;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    text-decoration: none;
+
+}
+
+.menus li {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    line-height: 3vh;
+}
+
+.border-color-default {
+    border-color: white;
+}
+
+li a.init-color {
+    border-radius: 50%;
+    border: 2px solid white;
+    /* Adjust the border width and color as needed */
+}
+
+li a.init-color i {
+    margin-right: 5px;
+    /* Adjust the margin as needed */
+}

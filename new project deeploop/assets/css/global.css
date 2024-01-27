@@ -271,7 +271,7 @@ h6, .h6 {
 }
 
 .subtitle {
-  color: var(--font-color);
+  color: white;
   font-size: 16px;
   letter-spacing: 2px;
 }
@@ -475,7 +475,7 @@ h6, .h6 {
   vertical-align: middle;
   width: 4vw;
   height: 1px;
-  background: var(--border-color);
+  background: rgb(215, 215, 215);
 }
 @media only screen and (max-width: 400px) {
   .line-shape:before, .line-shape:after {
@@ -497,7 +497,7 @@ p {
   line-height: var(--line-height-content);
 }
 p a {
-  color: var(--heading-color);
+  color: white;
 }
 
 cite,

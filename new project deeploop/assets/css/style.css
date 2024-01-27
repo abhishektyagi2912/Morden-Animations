@@ -1870,11 +1870,12 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--heading-color);
+  color: white;
+  border-color: white ;
 }
 
 .dsn-socials li a a:not(.move-circle) {
-  border-color: var(--border-color);
+  border-color: white;
 }
 
 .dsn-socials li a .icon-circle {
@@ -4424,7 +4425,7 @@ body.error404 .sm-title-block span {
 }
 
 #dsn_footer .col-contact p strong {
-  color: var(--heading-color);
+  color: white;
 }
 
 #dsn_footer .col-contact p span {
@@ -4725,43 +4726,43 @@ ul.list-style-none {
 }
 
 .move-circle.background-main .icon-circle {
-  background-color: var(--bg-color);
+  background-color: white;
 }
 
 .move-circle.background-section .icon-circle {
-  background-color: var(--assistant-color);
+  background-color: white;
 }
 
 .move-circle.background-theme .icon-circle {
-  background-color: var(--theme-color);
+  background-color: white;
 }
 
 .move-circle.border-color-default .icon-circle {
-  border-color: var(--border-color);
+  border-color: white;
 }
 
 .move-circle.border-color-main .icon-circle {
-  border-color: var(--bg-color);
+  border-color: white;
 }
 
 .move-circle.border-color-assistant .icon-circle {
-  border-color: var(--assistant-color);
+  border-color: white;
 }
 
 .move-circle.border-color-theme-color .icon-circle {
-  border-color: var(--theme-color);
+  border-color: white;
 }
 
 .move-circle.border-color-heading .icon-circle {
-  border-color: var(--heading-color);
+  border-color: white;
 }
 
 .move-circle.border-color-body .icon-circle {
-  border-color: var(--font-color);
+  border-color: white;
 }
 
 .move-circle.border-circle {
-  border: 1px solid var(--heading-color);
+  border: 1px solid white;
 }
 
 .dsn-lazy-loading {
@@ -4777,8 +4778,8 @@ img:not(.dsn-lazy-loading) {
 }
 
 .dsn-icon i {
-  font-size: var(--dsn-icon-size, 20px);
-  color: var(white, white);
+  font-size: 20px;
+  color: white;
 }
 
 .dsn-icon svg {
@@ -4974,7 +4975,7 @@ ul.dsn-list .list-item .background-theme {
 .dsn-def-btn.background-main .dsn-bg,
 .dsn-def-btn.background-main .dsn-bg-after:after,
 .dsn-def-btn.background-main .dsn-bg-before:before {
-  background-color: var(--bg-color);
+  background-color: #0a0909;
 }
 
 .dsn-background-inherit .background-section .dsn-bg,
@@ -5008,7 +5009,7 @@ ul.dsn-list .list-item .background-theme {
 }
 
 .background-revere {
-  background-color: var(--assistant-color);
+  background-color: #2c2b2b;
 }
 
 .background-section .background-revere {
