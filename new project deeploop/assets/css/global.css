@@ -1672,19 +1672,19 @@ a:focus {
 }
 
 .border-left {
-  border-left: 1px solid var(--border-color);
+  border-left: 1px white;
 }
 
 .border-right {
-  border-right: 1px solid var(--border-color);
+  border-right: 1px solid white;
 }
 
 .border-top {
-  border-top: 1px solid var(--border-color);
+  border-top: 1px solid white;
 }
 
 .border-bottom {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid white;
 }
 
 .border-color-main {
