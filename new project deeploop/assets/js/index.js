@@ -633,6 +633,16 @@ function setupPage3Animations() {
 
 setupPage3Animations();
 
+
+$(document).ready(function() {
+    // Check when the gallery is complete (replace this with your actual condition)
+    var isGalleryComplete = true;
+
+    if (isGalleryComplete) {
+        $('.salient-feature').fadeIn(); // Show the salient feature
+    }
+});
+
 // const horizontalSection = gsap.utils.toArray(".containers section");
 // const mask = document.querySelector(".mask");
 

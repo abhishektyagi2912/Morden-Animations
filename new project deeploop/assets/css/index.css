@@ -42,6 +42,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
+    padding: 0 3vw;
     background-color: transparent;
     transition: transform 0.3s ease-in-out;
 }
@@ -577,6 +578,7 @@ canvas {
     margin-bottom: 10vh;
     padding: 0 12vw;
     background-color: rgb(37, 37, 37);
+    
 }
 
 #salient-header {
@@ -611,7 +613,7 @@ canvas {
 
 #sec-1 {
     display: flex;
-    flex: 0 0 calc(50% - 50px);
+    flex: 0 0 calc(50% - 30px);
     align-items: start;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -620,7 +622,7 @@ canvas {
 
 #sec-2 {
     display: flex;
-    flex: 0 0 calc(50% - 50px);
+    flex: 0 0 calc(50% - 30px);
     align-items: start;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -629,7 +631,7 @@ canvas {
 
 #sec-3 {
     display: flex;
-    flex: 0 0 calc(50% - 50px);
+    flex: 0 0 calc(50% - 30px);
     align-items: start;
     margin-bottom: 20px;
     margin-right: 20px;
