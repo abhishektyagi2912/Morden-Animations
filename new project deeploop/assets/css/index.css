@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html,
@@ -10,8 +11,7 @@ body {
     /* overflow: hidden; */
     margin: 0;
     padding: 0;
-    background-color: rgb(37, 37, 37);
-    /* background:url(../imgs/bg-dot.png); */
+    background-color: rgb(26, 26, 26);
 }
 
 #mainforall {
@@ -33,16 +33,21 @@ body {
     z-index: -3;
 } */
 
-.container {
+.home-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* top: 0;
-    left: 0; */
+    top: 0;
+    position: fixed;
+    left: 0;
     width: 100%;
-    padding: 0 5vw;
-    z-index: 2;
-    /* background: url(../imgs/bg-dot.png); */
+    z-index: 1;
+    background-color: transparent;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hidden {
+    transform: translateY(-100%);
 }
 
 #left {
@@ -571,12 +576,12 @@ canvas {
     margin-top: 10vh;
     margin-bottom: 10vh;
     padding: 0 12vw;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(37, 37, 37);
 }
 
 #salient-header {
     margin-top: 10vh;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(37, 37, 37);
 }
 
 #salient-feature p {
@@ -677,53 +682,11 @@ canvas {
     margin-bottom: 1vh;
 }
 
-/* #footer {
-    position: relative;
-    height: 30vh;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    padding: 0 12vw;
-    background: rgb(5, 5, 5);
-    z-index: 1;
-}
-
-#footer-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#footer-heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40vw;
-    align-items: center;
-    margin-top: 9vh;
-    flex-wrap: wrap;
-}
-
-#footer-heading h1 {
-    color: white;
-    font-size: 3em;
-    font-weight: 600;
-    text-align:start;
-    margin-bottom: 2vh;
-}
-
-#footer span {
-    color: white;
-    font-weight: 100;
-    text-align: start;
-    font-style: italic;
-} */
-
 .footer {
     padding: 0 12vw;
     margin-bottom: 2vh;
     margin-top: 2vh;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(37, 37, 37);
 }
 
 .footer::before {
@@ -743,7 +706,7 @@ canvas {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(37, 37, 37);
 }
 
 .footer-content::before {
@@ -752,7 +715,7 @@ canvas {
     top: 0;
     left: 0;
     width: 100%;
-    height: 30vh;
+    height: 100%;
     background: url(../imgs/bg-dot.png);
     opacity: 0.8;
     pointer-events: none;
@@ -800,7 +763,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: rgb(25, 25, 25);
+    background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
